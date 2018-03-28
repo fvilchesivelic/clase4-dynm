@@ -1,0 +1,65 @@
+@import url('href="https://fonts.googleapis.com/css?family=Slackey');
+
+body{
+	background-color: rgb(126,245,248);
+	padding-top: 3.5rem;
+}
+
+#titulo{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-shadow: -5px 6px rgb(32,187,239);
+}
+
+h1{
+	font-family: Slackey, serif;
+	text-align: center;
+}
+
+h1,h2,h3,h4,p,a{
+	text-align: center;	
+}
+
+#para{
+	padding-left: 200px;
+	padding-right: 200px
+}
+
+img{
+	border: 2px solid white;
+	max-height: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.col-sm-4,.col-md-4,.col-lg-4{
+	padding: 20px;
+}
+
+#pf{
+	background-color:rgb(32,187,239);
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+.bg-lalala{
+	background: rgb(2,39,49);
+}
+
+.bg-lalala:hover{
+	background: rgb(32,69,79);
+	transition: all ease .1s;
+}
+
+.btn-cyan {
+    color: #fff;
+    background-color: rgb(255,109,182);
+    border-color: rgb(255,109,182);
+}
+
+.wallpaper{
+	background-image: url(media/sponge-0.jpg)
+ }
